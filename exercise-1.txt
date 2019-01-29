@@ -1,0 +1,115 @@
+1. Newton Second Law
+
+STORE 'newton' without any value
+STORE 'mass' with value 600
+STORE 'accel' with value 2
+
+CALCULATE 'mass' times 'accel'
+SET 'newton' value with calculation result
+
+DISPLAY 'newton'
+
+...................................................................................
+
+2. Tahun Kabisat
+
+algoritma
+
+syarat 1
+jumlah tahun habis dibagi 4
+jumlah tidak habis dibagi 100
+tahun kabisat
+
+syarat 2
+jumlah tahun habis dibagi 4
+jumlah tahun habis dibagi 100
+jumlah tahun habis dibagi 400
+tahun kabisat
+
+diluar syarat 1 dan syarat 2
+bukan tahun kabisat
+
+pseudocode
+
+STORE 'tahun' with any value
+
+IF CALCULATE 'tahun' mod 4 = 0
+	DO  CALCULATE 'tahun' mod 100
+ELSE
+	DO display "Ini bukan tahun kabisat"
+IF CALCULATE 'tahun' mod 100 = 0
+	DO CALCULAte 'tahun' mod 400
+ELSE
+	DO display "Ini tahun kabisat"
+IF CALCULATE 'tahun' mod 400 = 0
+	DO display "Ini tahun kabisat"
+ELSE
+	DO display "Ini bukan tahun kabisat"
+
+.....................................................................................
+
+3. Laundry Day
+
+algoritma
+
+Foxie akan mencuci baju
+Baju Foxie ada 20 buah
+Baju dimasukan kedalam mesin cuci satu persatu
+Mesin cuci akan dinyalakan ketika jumlah baju di musim cuci sudah 20
+
+pseudocode
+
+STORE 'numBaju' with value 20
+STORE 'baju with value 0
+
+FOR 'baju' = 0 to 'numBaju'
+CALCULATE 'baju' plus 1
+
+IF 'baju' = 20
+	DO display 'baju sudah dimasukkan sebanyak: ' + 'baju'
+	DO display 'baju sudah dimasukkan semua
+ELSE
+	DO display 'baju baru dimasukkan sebanyak: ' + 'baju'
+	DO display 'baju kurang'
+
+
+
+
+....................................................................................
+
+4. Periksa Kuku
+
+algoritma 
+
+guru akan memeriksa kuku 40 orang
+pengecekan dilakukan dengan keliling kelas, tidak boleh dilakukan pengecekan berulang.
+kuku siswa/siswi adalah random panjang atau pendek
+jika siswa/siswi memiliki kuku panjang maka guru akan menghukum
+jika siswa/siswi tidak memiliki kuku panjang maka guru akan memuji
+
+
+pseudocode
+
+STORE 'jumlahMurid' with number 40
+STORE 'murid' with number 0
+
+FOR i = 0 < jumlahMurid
+ 'random'[i] = random
+
+	IF i < 'random THEN
+	 'murid' = "Kuku Panjang"
+	ELSE
+	 'murid = "Kuku Pendek'
+	ENDIF
+
+	IF 'murid' equals 'Kuku Panjang'
+	  DO DISPLAY 'Harus dihukum'
+	ELSE
+	  DO DISPLAY 'Harus dipuji'
+	ENDIF
+
+ENDFOR
+
+
+
+
