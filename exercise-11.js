@@ -1,11 +1,14 @@
 function balikKata(kata) {
-  var splitKata = kata.split('');
-  var reverseKata= splitKata.reverse();
-  var joinAray= reverseKata.join('')
-
-
-  return joinAray
-}
+  // you can only write your code here!
+	for(var i=0 ; i<=kata.length ; i++){
+		tampung = ""
+		for (var j=kata.length-1;j>=0 ;j--){
+			tampung += kata[j]
+		}
+	}
+  	console.log (tampung)
+    return 'done'
+} 
 
 // TEST CASES
 console.log(balikKata('Hello World and Coders')); // sredoC dna dlroW olleH
