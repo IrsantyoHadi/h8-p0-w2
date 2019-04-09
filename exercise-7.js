@@ -28,8 +28,9 @@ for(i=0; i< rows2; i++){
 
 var blank = '';
 var star = '*';
+var rows3 = 5;
 // do loops to display asterisks in the console.
-for(i=0;i<rows3;i++){
+for(i=0;i < rows3;i++){
   blank = blank + '*'
   console.log (blank)
 }
