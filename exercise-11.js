@@ -6,8 +6,7 @@ function balikKata(kata) {
 			tampung += kata[j]
 		}
 	}
-  	console.log (tampung)
-    return 'done'
+    return tampung
 } 
 
 // TEST CASES
